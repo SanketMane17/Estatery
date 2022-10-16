@@ -1,0 +1,68 @@
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(120 98 217);
+}
+
+.divider {
+    margin-top: 10px !important;
+}
+
+.card-footer {
+    font-size: 0.74em;
+    display: flex;
+    padding: 0px 18px 13px 16px;
+    justify-content: space-between;
+    color: rgb(120 98 217);
+}
+
+.card-footer .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer .icon {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.property {
+    position: relative;
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    overflow: initial !important;
+}
+
+.popular {
+    position: absolute;
+    padding: 5px 10px;
+    box-shadow: 2px 1px 10px 1px rgb(0 0 0 / 30%);
+    color: #fff;
+    background: rgb(120 98 217);
+    top: 212px;
+    left: -7px;
+    z-index: 1;
+    margin-top: 16px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bolder;
+    width: 77px;
+    font-size: 12px;
+}
+
+.popular .icon {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+@media (max-width: 1200px) {
+    .popular {
+        top: 145px;
+    }
+}

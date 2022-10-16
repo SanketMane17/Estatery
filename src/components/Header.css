@@ -1,0 +1,18 @@
+.header-title {
+    display: flex;
+    align-items: center;
+}
+
+.header-section:hover {
+    background-color: #e8e0f6 !important;
+}
+
+.header-footer .user-btn {
+    border: 1px solid rgb(120 98 217);
+    margin-right: 10px;
+}
+
+.css-bvooin-MuiButtonBase-root-MuiButton-root {
+    text-transform: none !important;
+    font-size: 1em !important;
+}

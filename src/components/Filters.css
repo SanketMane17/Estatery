@@ -1,0 +1,46 @@
+.filters {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.filter-bar {
+    padding: 1em;
+}
+
+.filter-pill {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    padding: 5px 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+}
+
+.filter-pill:focus {
+    outline: none;
+}
+
+.filter-pill::placeholder {
+    color: black;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.date-input {
+    min-width: 32vh;
+}
+
+@media (max-width: 900px) {
+    .filter-bar {
+        display: flex !important;
+        flex-direction: column !important; 
+        align-items: flex-start !important;
+    }
+
+    #filter-1 {
+        margin-left: 17px;
+    }
+}
