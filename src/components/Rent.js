@@ -24,7 +24,7 @@ function Rent() {
                     Search properties to rent
                 </Typography>
                 <Searchbar
-                    className="search-bar"
+                    className="parent-search"
                     items={items}
                     setItems={setItems}
                     searchKey={searchKey}

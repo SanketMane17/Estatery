@@ -5,6 +5,7 @@ import {
 } from "@mui/material";
 import { Search } from "@mui/icons-material";
 import properties from '../dummyData';
+import "./Rent.css";
 
 function Searchbar({ items, setItems, searchKey }) {
     const [debounceTimeout, setDebounceTimeout] = useState("");
@@ -55,6 +56,7 @@ function Searchbar({ items, setItems, searchKey }) {
 
     return (
         <TextField
+            className="serach-bar"
             size="small"
             InputProps={{
                 endAdornment: (
