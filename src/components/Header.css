@@ -16,3 +16,9 @@
     text-transform: none !important;
     font-size: 1em !important;
 }
+
+@media (max-width: 900px) {
+    .header-footer .user-btn {
+        display: none;
+    }
+}

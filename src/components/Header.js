@@ -13,6 +13,7 @@ import BedroomParentIcon from '@mui/icons-material/BedroomParent';
 import "./Header.css";
 
 const pages = ['Rent', 'Buy', 'Sell', "Manage Property", "Resources"];
+const responsivePages = ['Rent', 'Buy', 'Sell', "Manage Property", "Resources", "Login", "Signup"];
 
 const ResponsiveAppBar = () => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -76,7 +77,7 @@ const ResponsiveAppBar = () => {
                                 display: { xs: 'block', md: 'none' },
                             }}
                         >
-                            {pages.map((page) => (
+                            {responsivePages.map((page) => (
                                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                                     <Typography textAlign="center" color="#403e6c">{page}</Typography>
                                 </MenuItem>
