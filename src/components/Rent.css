@@ -10,9 +10,13 @@
 }
 
 .css-1c5iwy8-MuiInputBase-root-MuiOutlinedInput-root {
-    margin-top: 35px !important;
-    margin-bottom: 20px !important;
-    background: white;
+    margin: 35px 0px !important;
+    background-color: white;
+}
+
+.css-i44wyl {
+    margin: 35px 0px !important;
+    background-color: white;
 }
 
 @media (max-width: 555px) {
